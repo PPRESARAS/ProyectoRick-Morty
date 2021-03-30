@@ -1,0 +1,78 @@
+html, body{
+    height: 100%;
+    margin-top: 0px;
+}
+
+body{
+    height: 100%;
+    margin: none;
+}
+.contentWrapper{
+    height: 100%;
+}
+.personajes{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   margin-top: 0px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.personajeBox{
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid rgb(136, 136, 136);
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.info{
+    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3 {
+    color: blue;
+}
+
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0px;
+    padding: none;
+}
+.tituloPrincipal span{
+    color: blue;
+    margin-left: 5px;
+   
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 71px;
+    background-color: cornflowerblue;
+    margin-top: none ;
+    padding: none ;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
